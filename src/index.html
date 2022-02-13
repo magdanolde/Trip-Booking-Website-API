@@ -7,106 +7,104 @@
     <title>JavaScript: API oraz FETCH - client, devmentor.pl</title>
     <link rel="stylesheet" href="./css/client.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-  </head>
-  <body>
-    <header class="header">
-        <section class="header__menu container">
-            <img src="images/logo.png" alt="Company logo" class="header__logo">    
-            <nav class="header__nav">
-                <ul class="nav">
-                    <li class="nav__item"><a href="#" class="nav__link">O nas</a>
-                    </li>
-                    <li class="nav__item"><a href="#" class="nav__link">Wycieczki</a>
-                    </li>
-                    <li class="nav__item"><a href="#" class="nav__link">Kontakt</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section class="header__infos container">
-          <div class="header__description">
-            Wybierz kolejna niesamowita wycieczke w kraju nad Renem
-          </div>
-        </section>
-    </header>
-    <section class="panel">
-          <ul class="panel__excursions excursions">
-            <li class="excursions__item excursions__item--prototype">
-              <header class="excursions__header">
-                <h2 class="excursions__title">Ogrodzieniec</h2>
-                <p class="excursions__description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
-                aliquam quam laboriosam quaerat temporibus dicta vitae maxime!
-                Nemo, nobis veritatis?
-                </p>
-              </header>
-              <form class="excursions__form">
-                <div class="excursions__field">
-                  <label class="excursions__field-name">
-                    Dorosły: <span class="excursions__price">99</span>PLN x
-                    <input class="excursions__field-input" name="adults" />
-                  </label>
-                </div>
-                <div class="excursions__field">
-                  <label class="excursions__field-name">
-                    Dziecko: <span class="excursions__price">50</span>PLN x
-                    <input class="excursions__field-input" name="children" />
-                  </label>
-                </div>
-                <div class="excursions__field excursions__field--submit">
-                  <input
-                    class="excursions__field-input excursions__field-input--submit"
-                    value="Dodaj do zamówienia"
-                    type="submit"
-                  />
-                </div>
-              </form>
+</head>
+<body>
+  <header class="header">
+    <section class="header__menu container">
+      <img src="images/logo.png" alt="Company logo" class="header__logo">    
+        <nav class="header__nav">
+          <ul class="nav">
+            <li class="nav__item"><a href="#" class="nav__link">O nas</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Wycieczki</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Kontakt</a>
             </li>
           </ul>
-        </section>
-        <section class="panel__form">
-          <form class="panel__order order" novalidate>
-            <div class="order__total-price">
-              Razem:
-              <span class="order__total-price-value">199PLN</span>
-            </div>
-            <div class="order__field">
-              <label class="order__field-name">
-                Imię: <input class="order__field-input" name="name" />
-              </label>
-            </div>
-            <div class="order__field">
-              <label class="order__field-name">
-                Nazwisko: <input class="order__field-input" name="surname" />
-              </label>
-            </div>
-            <div class="order__field">
-              <label class="order__field-name">
-                Email: <input class="order__field-input" name="email" />
-              </label>
-            </div>
-            <div class="order__field order__field--submit">
-              <input
-                class="order__field-input order__field-submit"
-                value="Zamawiam"
-                type="submit"
-              />
-            </div>
-          </form>
-          <ul class="panel__summary summary">
-            <li class="summary__item summary__item--prototype">
-              <h3 class="summary__title">
-                <span class="summary__name">Ogrodzieniec</span>
-                <strong class="summary__total-price">199PLN</strong>
-                <img src="images/trash-solid.svg" alt="bin__icon" class="summary__btn-remove">
-              </h3>
-              <p class="summary__prices">dorośli: 1 x 99PLN, dzieci: 2 x 50PLN</p>
-           </li>
-          </ul>
-        </section>
+        </nav>
+    </section>
+    <section class="header__infos container">
+      <div class="header__description">
+        Wybierz kolejna niesamowita wycieczke w kraju nad Renem
       </div>
     </section>
-  </body>
+  </header>
+  <section class="panel">
+    <ul class="panel__excursions excursions">
+      <li class="excursions__item excursions__item--prototype">
+        <header class="excursions__header">
+          <h2 class="excursions__title">Ogrodzieniec</h2>
+            <p class="excursions__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+              aliquam quam laboriosam quaerat temporibus dicta vitae maxime!
+              Nemo, nobis veritatis?
+              </p>
+        </header>
+        <form class="excursions__form">
+          <div class="excursions__field">
+            <label class="excursions__field-name">
+              Dorosły: <span class="excursions__price">99</span>PLN x
+                <input class="excursions__field-input" name="adults" />
+            </label>
+          </div>
+          <div class="excursions__field">
+            <label class="excursions__field-name">
+              Dziecko: <span class="excursions__price">50</span>PLN x
+              <input class="excursions__field-input" name="children" />
+            </label>
+          </div>
+          <div class="excursions__field excursions__field--submit">
+            <input
+              class="excursions__field-input excursions__field-input--submit"
+              value="Dodaj do zamówienia"
+              type="submit"
+            />
+          </div>
+        </form>
+      </li>
+    </ul>
+  </section>
+  <section class="panel__form">
+    <form class="panel__order order" novalidate>
+      <div class="order__total-price">
+        Razem:
+        <span class="order__total-price-value">199PLN</span>
+      </div>
+      <div class="order__field">
+        <label class="order__field-name">
+          Imię: <input class="order__field-input" name="name" />
+        </label>
+      </div>
+      <div class="order__field">
+        <label class="order__field-name">
+          Nazwisko: <input class="order__field-input" name="surname" />
+        </label>
+      </div>
+      <div class="order__field">
+        <label class="order__field-name">
+          Email: <input class="order__field-input" name="email" />
+        </label>
+      </div>
+      <div class="order__field order__field--submit">
+        <input
+          class="order__field-input order__field-submit"
+          value="Zamawiam"
+          type="submit"
+        />
+      </div>
+    </form>
+    <ul class="panel__summary summary">
+      <li class="summary__item summary__item--prototype">
+        <h3 class="summary__title">
+          <span class="summary__name">Ogrodzieniec</span>
+          <strong class="summary__total-price">199PLN</strong>
+          <img src="images/trash-solid.svg" alt="bin__icon" class="summary__btn-remove">
+        </h3>
+          <p class="summary__prices">dorośli: 1 x 99PLN, dzieci: 2 x 50PLN</p>
+      </li>
+    </ul>
+  </section>
+</body>
 </html>   
 
 
