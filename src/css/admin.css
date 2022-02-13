@@ -2,12 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background: #2b96ad;
+    min-height: 200px;
+}
+
+.header__nav {
+    padding: 5% 0;
+}
+
+.header__logo {
+    height: 170px;
+    width: 150px;
+    margin: 2%;
+}
+
+.header__menu {
+    margin: 0 auto;
+    max-width: 1250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 1rem;
+}
+
+
+.nav__link {
+    color: #caebf2;
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #ffffff;
+}
+
+.nav__item {
+    padding: 0 1.25rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.header__description {
+    font-size: 1.7rem;
+    text-align: center;
+    color: #caebf2;
+    padding: 1% 0 2% 0;
 }
 
 ul {
     list-style: none;
 }
 
+.tasks,
 .panel {
     display: flex;
     margin: 0 auto;
@@ -15,13 +74,26 @@ ul {
     padding: 30px 0;
 }
 
-.panel__excursins {
+.tasks {
+    justify-content: space-between;
+}
+
+
+.tasks__change,
+.tasks__add {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #a9a9a9;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+
+.panel__excursions {
     width: 70%;
 }
 
 .excursions {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .excurions__item {
@@ -30,6 +102,51 @@ ul {
     margin: 10px;
     padding: 20px;
     width: calc(50% - 20px);
+}
+
+.excursions {
+    display: flex;
+    flex-direction: column;
+}
+
+.excursions__item {
+    border: 3px solid #f2f2f2;
+    border-radius: 2px;
+    padding: 20px;
+    width: 90%;
+    background-color: #efefef;
+    
+}
+
+.excursions__field {
+    display: flex;
+    flex-direction: row;
+}
+
+.excursions__field-input--update:hover,
+.excursions__field-input--remove:hover {
+    background-color: #ff3b3f;
+    border: 3px solid #ff3b3f;
+    border-radius: 5px;
+    height: 2%;
+    width: 15%;
+    display: block;
+    padding: 1%;
+    margin: 2% 2% 0 0;
+    opacity: 1;
+}
+
+.excursions__field-input--update,
+.excursions__field-input--remove {
+    background-color: #ff3b3f;
+    border: 3px solid #ff3b3f;
+    border-radius: 5px;
+    height: 2%;
+    width: 15%;
+    display: block;
+    padding: 1%;
+    margin: 2% 2% 0 0;
+    opacity: 0.7;
 }
 
 .panel__form {
@@ -50,4 +167,29 @@ ul {
 
 .form__field--longtext {
     height: 100px;
+}
+
+.order__field-submit {
+    background-color: #ff3b3f;
+    border: 3px solid #ff3b3f;
+    border-radius: 5px;
+    height: 2%;
+    width: 30%;
+    display: block;
+    padding: 1%;
+    margin: 2% 2% 0 0;
+    opacity: 0.7;
+
+}
+
+.order__field-submit:hover {
+    background-color: #ff3b3f;
+    border: 3px solid #ff3b3f;
+    border-radius: 5px;
+    height: 2%;
+    width: 30%;
+    display: block;
+    padding: 1%;
+    margin: 2% 2% 0 0;
+    opacity: 1;
 }
