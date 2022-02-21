@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript: API oraz FETCH - admin, devmentor.pl</title>
-    <link rel="stylesheet" href="./css/admin.css"/>
+    <!-- <link rel="stylesheet" href="./css/admin.css"/> -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -40,13 +40,13 @@
                 </header>
                 <form class="excursions__form">
                     <div class="excursions__field">
-                        <label class="excursions__field-name">
-                            Dorosły: <strong>99</strong>PLN
+                        <label class="excursions__field">
+                            Dorosły: <strong class ="exursions__price-adult">99</strong>PLN
                         </label>
                     </div>
                     <div class="excursions__field">
-                        <label class="excursions__field-name">
-                            Dziecko: <strong>50</strong>PLN
+                        <label class="excursions__field">
+                            Dziecko: <strong class ="exursions__price-child">50</strong>PLN
                         </label>
                     </div>
                     <div class="excursions__field excursions__field--submit">
@@ -78,12 +78,12 @@
                 </div>
                 <div class="form__row">
                     <label class="form__label">
-                        Cena dorosły:<input class="form__field" type="number" name="name" />
+                        Cena dorosły:<input class="form__field" type="number" name="adultPrice" />
                     </label>
                 </div>
                 <div class="form__row">
                     <label class="form__label">
-                        Cena dziecko:<input class="order__form__field" type="number" name="name" />
+                        Cena dziecko:<input class="order__form__field" type="number" name="childPrice" />
                     </label>
                 </div>
                 <div class="order__field order__field--submit">

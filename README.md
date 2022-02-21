@@ -58,7 +58,7 @@ npm install
 ```
 Potem dopiero możesz go uruchomić poprzez `npm start`.
 
-Jeśli chcesz odpalić wersję `client`, to wystarczy wpisać w przeglądarkę `http://localhost:8080/index.html`. Natomiast `admin` jest dostępny pod adresem: `http://localhost:8080/admin.html`.
+Jeśli chcesz odpalić wersję `client`, to wystarczy wpisać w przeglądarkę ``. Natomiast `admin` jest dostępny pod adresem: `http://localhost:8080/admin.html`.
 
 > **Uwaga!** Jeśli nie widzisz poprawnych numerów linii kodu dla błędów w konsoli, to prawdopodobnie nie masz włączonej obsługi source maps dla plików JavaScript. Możesz to zmienić w [ustawieniach przeglądarki Chrome](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps).
 
