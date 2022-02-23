@@ -67,6 +67,10 @@ ul {
     list-style: none;
 }
 
+.summary__item--prototype {
+    display: none;
+}
+
 .panel {
     /* display: flex; */
     margin: 0 auto;
@@ -94,7 +98,7 @@ ul {
 }
 
 .excursions__item--prototype {
-    display: block;
+    display: none;
 }
 
 .excursions__field-input {
@@ -158,11 +162,6 @@ ul {
     border-bottom: 1px solid #bbb;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    
-}
-
-.summary__item--prototype {
-    display: none;
     
 }
 

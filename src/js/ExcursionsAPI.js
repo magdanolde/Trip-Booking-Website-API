@@ -4,7 +4,7 @@ class ExcursionsAPI {
     }
 
     loadData() {
-        return this._fetch("excursions");
+        return this._fetch('excursions');
     }
     
     addData(data) {
@@ -17,10 +17,27 @@ class ExcursionsAPI {
             }
         };
         
-        return this._fetch("excursions", options);
+        return this._fetch('excursions', options);
     }
+
+    removeData(id) {
+        const options = { method: 'DELETE' };
+        return this._fetch(`excursions/${id}`, options);
+    }
+
+    updateData(id, data) {
+        const options = {
+            method: 'PUT',
+            body: JSON.stringify( data ),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        };
+        return this._fetch(`excursions/${id}`);
+    }
+
     
-    _fetch(additionalPath = "", options) {
+    _fetch(additionalPath = '', options) {
         const url = this.url +  additionalPath;
         return fetch(url, options)
             .then(resp => {

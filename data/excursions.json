@@ -1,4 +1,12 @@
 {
-  "excursions": [],
+  "excursions": [
+    {
+      "name": "Berlin",
+      "description": "bpnüüü",
+      "adultPrice": "4",
+      "childPrice": "4",
+      "id": 1
+    }
+  ],
   "orders": []
 }
