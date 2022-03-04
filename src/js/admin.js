@@ -32,7 +32,7 @@ function insertExcursions (data) {
     ulEl.appendChild(excursionPrototype);
     data.forEach((item) => {
         const liEl = excursionPrototype.cloneNode(true);
-        const id = getIdFromRoot(liEl);
+        liEl.dataset.id = item.id
         const title = liEl.querySelector(".excursions__title");
         const description = liEl.querySelector(".excursions__description");
         const adultPrice = liEl.querySelector(".exursions__price-adult");
@@ -60,6 +60,7 @@ function addExcursions() {
         api.addData(data)
         .catch(err => console.error(err))
         .finally( () => loadExcursions() );
+    form.reset();
     });
 }
 
@@ -72,6 +73,7 @@ function removeExcursions() {
       const targetEl = e.target;
       if(targetEl.classList.contains('excursions__field-input--remove')) {
         const parentEl = findItemRoot(targetEl)
+        console.log(parentEl);
         const id = getIdFromRoot(parentEl);
         api.removeData(id)
           .catch((err) => console.error(err))

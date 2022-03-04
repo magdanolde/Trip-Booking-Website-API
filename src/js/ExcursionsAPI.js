@@ -36,6 +36,18 @@ class ExcursionsAPI {
         return this._fetch(`excursions/${id}`);
     }
 
+    addOrder(data) {
+        const options = {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        };
+    
+        return this._fetch(`orders`, options);
+      }
+
     
     _fetch(additionalPath = '', options) {
         const url = this.url +  additionalPath;

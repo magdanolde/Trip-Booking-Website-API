@@ -193,6 +193,8 @@ ul {
 
 .summary__btn-remove {
     height: 25px;
+    background-color: #ff3b3f;
+    width:  40px;
 
 }
 
