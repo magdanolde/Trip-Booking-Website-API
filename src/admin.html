@@ -11,25 +11,25 @@
 <body>
     <header class="header">
         <section class="header__menu container">
-            <img src="images/logo.png" alt="Company logo" class="header__logo">    
+            <img src="/src/images/Logo.png" alt="Company logo" class="header__logo">    
             <nav class="header__nav">
                 <ul class="nav">
-                    <li class="nav__item"><a href="#" class="nav__link">O nas</a>
+                    <li class="nav__item"><a href="#" class="nav__link">Company</a>
                     </li>
-                    <li class="nav__item"><a href="#" class="nav__link">Wycieczki</a>
+                    <li class="nav__item"><a href="#" class="nav__link">Tours</a>
                     </li>
-                    <li class="nav__item"><a href="#" class="nav__link">Kontakt</a>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a>
                     </li>
                 </ul>
             </nav>
         </section>
         <section class="header__infos container">
-          <div class="header__description">Panel administratora</div>
+          <div class="header__description">Admin panel</div>
         </section>
     </header>
     <section class="tasks">
-        <div class="tasks__change">Edytuj wycieczki</div>
-        <div class="tasks__add">Dodaj wycieczki</div>
+        <div class="tasks__change">Edit tours</div>
+        <div class="tasks__add">Add tour</div>
     </section>
     <section class="panel">
         <ul class="panel__excursions excursions">
@@ -41,23 +41,23 @@
                 <form class="excursions__form">
                     <div class="excursions__field">
                         <label class="excursions__field">
-                            Dorosły: <strong><span class ="exursions__price-adult">99</span></strong>PLN
+                            Adult: <strong><span class ="exursions__price-adult">99</span></strong>PLN
                         </label>
                     </div>
                     <div class="excursions__field">
                         <label class="excursions__field">
-                            Dziecko: <strong><span class ="exursions__price-child">50</span></strong>PLN
+                            Child: <strong><span class ="exursions__price-child">50</span></strong>PLN
                         </label>
                     </div>
                     <div class="excursions__field excursions__field--submit">
                         <input 
                             class="excursions__field-input excursions__field-input--update" 
-                            value="edytuj"
+                            value="Edit"
                             type="submit"
                         />
                         <input 
                             class="excursions__field-input excursions__field-input--remove" 
-                            value="usuń"
+                            value="Remove"
                             type="submit"
                         />
                     </div>
@@ -68,28 +68,28 @@
             <form class="form" novalidate>
                 <div class="form__row">
                     <label class="form__label">
-                        Nazwa:<input class="form__field" name="name" />
+                        Name:<input class="form__field" name="name" />
                     </label>
                 </div>
                 <div class="form__row">
                     <label class="form__label">
-                        Opis:<textarea class="form__field form__field--longtext" name="description"></textarea>
+                        Description:<textarea class="form__field form__field--longtext" name="description"></textarea>
                     </label>
                 </div>
                 <div class="form__row">
                     <label class="form__label">
-                        Cena dorosły:<input class="form__field" type="number" name="adultPrice" />
+                        Adult price:<input class="form__field" type="number" name="adultPrice" />
                     </label>
                 </div>
                 <div class="form__row">
                     <label class="form__label">
-                        Cena dziecko:<input class="order__form__field" type="number" name="childPrice" />
+                        Child price:<input class="order__form__field" type="number" name="childPrice" />
                     </label>
                 </div>
                 <div class="order__field order__field--submit">
                     <input 
                         class="order__field-input order__field-submit" 
-                        value="dodaj"
+                        value="ADD"
                         type="submit"
                     />
                 </div>

@@ -1,141 +1,19 @@
 {
   "excursions": [
     {
-      "name": "Berlin",
-      "description": "oooo",
-      "adultPrice": "4",
-      "childPrice": "4",
+      "name": "Munich",
+      "description": "is the capital and most populous city of the German state of Bavaria. Munich is a global centre of art, science, technology, finance, publishing, culture, innovation, education, business, and tourism and enjoys a very high standard and quality of living",
+      "adultPrice": "30",
+      "childPrice": "15",
       "id": 1
+    },
+    {
+      "name": "Allgäu",
+      "description": "The Allgäu is a region in Swabia in southern Germany. The region stretches from the prealpine lands up to the Alps. The Allgovian area is notable for its beautiful landscapes and is popular for vacations and therapeutic stays.",
+      "adultPrice": "20",
+      "childPrice": "10",
+      "id": 2
     }
   ],
-  "orders": [
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": "7",
-          "adultPrice": "4",
-          "childNumber": "7",
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": "7",
-          "adultPrice": "4",
-          "childNumber": "7",
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": "7",
-          "adultPrice": "4",
-          "childNumber": "7",
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": "6",
-          "adultPrice": "4",
-          "childNumber": "6",
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": "7",
-          "adultPrice": "4",
-          "childNumber": "7",
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": 7,
-          "adultPrice": "4",
-          "childNumber": 7,
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": 5,
-          "adultPrice": "4",
-          "childNumber": 5,
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "Magdalena",
-      "surname": "n",
-      "email": "@",
-      "order": [
-        {
-          "name": "Berlin",
-          "adultNumber": 6,
-          "adultPrice": "4",
-          "childNumber": 6,
-          "childPrice": "4",
-          "id": "1"
-        }
-      ],
-      "id": 8
-    }
-  ]
+  "orders": []
 }

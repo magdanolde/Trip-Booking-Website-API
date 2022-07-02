@@ -138,6 +138,7 @@ ul {
     padding: 1%;
     margin: 2% 2% 0 0;
     opacity: 1;
+    color: #f2f2f2;
 }
 
 .excursions__field-input--update,
@@ -199,6 +200,7 @@ ul {
     margin: 2% 2% 0 0;
     opacity: 1;
     margin-top: 5%;
+    color: #f2f2f2;
 }
 
 .order__form__field {

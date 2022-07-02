@@ -104,12 +104,12 @@ function removeExcursions() {
                 api.updateData(data, id)
                 .catch((err) => console.error(err))
                 // .finally(() => {
-                targetEl.innerText = "edytuj";
+                targetEl.innerText = "edit";
                 spanList.forEach((span) => (span.contentEditable = false));
                 // });
             } 
             else {
-                targetEl.innerText = "zapisz";
+                targetEl.innerText = "save";
                 spanList.forEach((span) => (span.contentEditable = true));
             }
         }

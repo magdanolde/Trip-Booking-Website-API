@@ -11,21 +11,21 @@
 <body>
   <header class="header">
     <section class="header__menu container">
-      <img src="images/logo.png" alt="Company logo" class="header__logo">    
+      <img src="/src/images/Logo.png" alt="Company logo" class="header__logo">    
         <nav class="header__nav">
           <ul class="nav">
-            <li class="nav__item"><a href="#" class="nav__link">O nas</a>
+            <li class="nav__item"><a href="#" class="nav__link">Company</a>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">Wycieczki</a>
+            <li class="nav__item"><a href="#" class="nav__link">Tours</a>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">Kontakt</a>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a>
             </li>
           </ul>
         </nav>
     </section>
     <section class="header__infos container">
       <div class="header__description">
-        Wybierz kolejna niesamowita wycieczke w kraju nad Renem
+        Get to know Germany better with one of our amazing tours!
       </div>
     </section>
   </header>
@@ -43,20 +43,20 @@
         <form class="excursions__form">
           <div class="excursions__field">
             <label class="excursions__field-name">
-              Dorosły: <span class="excursions__adultprice">99</span>PLN x
+              Adult: <span class="excursions__adultprice">99</span>€ x
                 <input class="excursions__field-input" name="adults" />
             </label>
           </div>
           <div class="excursions__field">
             <label class="excursions__field-name">
-              Dziecko: <span class="excursions__childprice">50</span>PLN x
+              Child: <span class="excursions__childprice">50</span>€ x </label>
               <input class="excursions__field-input" name="children" />
             </label>
           </div>
           <div class="excursions__field excursions__field--submit">
             <input
               class="excursions__field-input excursions__field-input--submit"
-              value="Dodaj do zamówienia"
+              value="ADD"
               type="submit"
             />
           </div>
@@ -67,17 +67,17 @@
   <section class="panel__form">
     <form class="panel__order order" novalidate>
       <div class="order__total-price">
-        Razem:
+        TOTAL:
         <span class="order__total-price-value"></span>
       </div>
       <div class="order__field">
         <label class="order__field-name">
-          Imię: <input class="order__field-input" name="name" />
+          Name: <input class="order__field-input" name="name" />
         </label>
       </div>
       <div class="order__field">
         <label class="order__field-name">
-          Nazwisko: <input class="order__field-input" name="surname" />
+          Lastname: <input class="order__field-input" name="surname" />
         </label>
       </div>
       <div class="order__field">
@@ -88,7 +88,7 @@
       <div class="order__field order__field--submit">
         <input
           class="order__field-input order__field-submit"
-          value="Zamawiam"
+          value="ODRER"
           type="submit"
         />
       </div>
@@ -99,8 +99,8 @@
           <span class="summary__name">Ogrodzieniec</span>
           <strong class="summary__total-price"></strong>
         </h3>
-          <p class="summary__prices">dorośli: 1 x 99PLN, dzieci: 2 x 50PLN</p>
-          <div class= "summary__btn-remove">Usun</div>
+          <p class="summary__prices">adults: 1 x 99€, children: 2 x 50€</p>
+          <div class= "summary__btn-remove">REMOVE</div>
       </li>
     </ul>
   </section>
