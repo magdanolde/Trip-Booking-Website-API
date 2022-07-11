@@ -26,10 +26,10 @@ As a admin, you can:
 
 ## HOW TO OPEN THE PROJECT
 
- 1.Clone git repository and open file on your local device in Code editor.
- 2.Run npm install command to install all npm packages.
- 3.Run npm start command to open developers mode.
- 4.Run json-server --watch ./data/excursions.json command.
+ 1. Clone git repository and open file on your local device in Code editor.
+ 2. Run npm install command to install all npm packages.
+ 3. Run npm start command to open developers mode.
+ 4. Run json-server --watch ./data/excursions.json command.
 
     Client panel: http://localhost:8080/index.html
 
