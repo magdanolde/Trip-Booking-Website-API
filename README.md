@@ -24,7 +24,7 @@ As a admin, you can:
 
 ## :boom: PROJECT LIVE 
 
-## HOW TO OPEN THE PROJECT
+## :mag: HOW TO OPEN THE PROJECT
 
  1. Clone git repository and open file on your local device in Code editor.
  2. Run npm install command to install all npm packages.
