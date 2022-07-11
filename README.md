@@ -3,7 +3,7 @@
  
 This program has both client site and admin site. The client site allows you to order trips, which are added to the database. Admin site allows you to add and manage trips.
 
-## :dart: FEATURES & CHALLANGES 
+## :dart: FEATURES & CHALLENGES 
 
 ADMIN 
 
