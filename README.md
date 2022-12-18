@@ -1,9 +1,11 @@
 
+## TRIP BOOKING WEBSITE API
+
 ## :shell: PROJECT IN A NUTSHELL
  
 This program has both client site and admin site. The client site allows you to order trips, which are added to the database. Admin site allows you to add and manage trips.
 
-## :dart: FEATURES & CHALLENGES 
+### :unlock: FEATURES 
 
 ADMIN 
 
@@ -21,10 +23,19 @@ As a admin, you can:
 * edit trips
 * remove trips
 
+###  SOLUTIONS APPLIED IN THE PROJECT
 
-## :boom: PROJECT LIVE 
+* Semantic HTML (BEM)
+* The css styles (client.css and admin.css) are loaded into <head> section thanks to webpack, using the appropriate loader in webpack.config.js for files     with the extension .css
+* Webpack
+* To store all communication with the API in one place, the class ExcursionsAPI was created (in the separated file ExcursionsAPI.js)
+* Communication with API is based on fetch() method
+* To run the project using browsers that do not support fetch() method, package whatwg-fetch was used
 
-## :mag: HOW TO OPEN THE PROJECT
+
+### :boom: PROJECT LIVE 
+
+### :mag: HOW TO OPEN THE PROJECT
 
  1. Clone git repository and open file on your local device in Code editor.
  2. Run npm install command to install all npm packages.
@@ -42,7 +53,7 @@ As a admin, you can:
     Orders data: http://localost:3000/orders
 
 
-## 💻 TECHNOLOGIES
+### 💻 TECHNOLOGIES
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -53,5 +64,7 @@ Other tools:
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 
-## 🤝 SPECIALTHANKS
-Thanks to my Mentor - devmentor.pl - for providing me with this task and for code review.
+### 🤝 SPECIALTHANKS
+Thanks to my Mentor - [devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.
+
+If you have any questions feel free to get in touch with me (contact in the profile [readme](https://github.com/magdanolde)).
