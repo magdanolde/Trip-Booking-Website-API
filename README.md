@@ -7,8 +7,6 @@ This program has both client site and admin site. The client site allows you to 
 
 ### :unlock: FEATURES 
 
-ADMIN 
-
 As a client, you can:
 
 * add trips to the basket
