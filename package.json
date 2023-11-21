@@ -26,6 +26,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
     "stream-browserify": "^3.0.0"
   }
 }
