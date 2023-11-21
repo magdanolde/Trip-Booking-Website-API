@@ -50,6 +50,7 @@ As a admin, you can:
 
     Orders data: http://localost:3000/orders
 
+![User_View](https://github.com/magdanolde/Trip-Booking-Website-API/assets/83141358/56bf646d-935e-4e64-8972-c17bdc45bdb7)
 
 ### 💻 TECHNOLOGIES
 
